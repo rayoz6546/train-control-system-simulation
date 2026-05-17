@@ -28,6 +28,9 @@ The application includes:
 
 The result is a multi-module simulation that behaves like an integrated train-control environment rather than a single standalone script.
 
+
+![alt text](train_system/reports/System_Design_Diagram.png)
+
 ## Key Features
 
 - Full PyQt5 GUI launcher for selecting and opening system modules
