@@ -6,7 +6,7 @@ This project simulates a full train network control environment with multiple so
 
 ## Demo Video
 
-If you want to see the system running, watch the demo here:
+If you want to see my part of the system running (track controller), watch the demo here:
 
 [![Train Control System Demo](https://img.youtube.com/vi/RWqTWxn2w_w/maxresdefault.jpg)](https://youtu.be/RWqTWxn2w_w?si=XtGOjOL672tpc4Sr)
 
