@@ -1,0 +1,24 @@
+sw_62=left
+sw_77=left
+sw_85=right
+sw_28=left
+sw_13=right
+sw_57=left
+if to_63=True then tl_62=red and tl_61=yellow 
+if to_63=False then tl_62=green and tl_61=green 
+^if to_77->85=True then tl_76=red and tl_75=yellow 
+^if to_77->85=False then tl_76=green and tl_75=green 
+^if to_77->85=True then tl_100=red and tl_99=yellow 
+^if to_77->85=False then tl_100=green and tl_99=green 
+if to_76=True then sw_77=right 
+if to_77=True then sw_77=right 
+if to_85=True then sw_85=left 
+^if to_01->28=True then tl_150=red and tl_149=yellow 
+^if to_01->28=False then tl_150=green and tl_149=green 
+^if to_13->28=True then tl_01=red and tl_02=yellow 
+^if to_13->28=False then tl_01=green and tl_02=green 
+if to_13=True then sw_13=left 
+if to_150=True then sw_28=right 
+if to_28=True then sw_28=left 
+cif to_18=True or to_19=True or to_20=True then cr_19=True 
+cif to_18=False and to_19=False and to_20=False then cr_19=False 

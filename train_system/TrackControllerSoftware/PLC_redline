@@ -1,0 +1,10 @@
+sw_16=right
+sw_52=left
+^if to_16->52=True then tl_01=red and tl_02=yellow 
+^if to_16->52=False then tl_01=green and tl_02=green 
+if to_01=True then sw_16=left 
+^if to_16->52=True then tl_66=red and tl_65=yellow 
+^if to_16->52=False then tl_66=green and tl_65=green 
+if to_66=True then sw_52=right 
+cif to_46=True or to_47=True or to_48=True then cr_47=True 
+cif to_46=False and to_47=False and to_48=False then cr_47=False 

@@ -1,0 +1,2 @@
+tl_5=green,tl_6=red,tl_11=green, 
+sw_5=right  

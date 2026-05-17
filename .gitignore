@@ -1,0 +1,12 @@
+train_system/train_model/__pycache__/
+train_system/train_controller/__pycache__/
+train_system/signals/__pycache__/
+train_system/track_model/__pycache__
+train_system/CTC/__pycache__
+train_system/TrackControllerSoftware/__pycache__
+train_system/.idea/
+train_system/__pycache__
+
+.idea/workspace.xml
+.idea
+.vscode
